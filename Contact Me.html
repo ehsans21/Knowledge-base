@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+<style>
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00CED1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.custom-file-upload:hover {background-color: #AFEEEE}
+
+.custom-file-upload:active {
+  background-color: #AFEEEE;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+
+</head>
+<body>
+<h2>My Contact Details</h2>
+<p>Name: Ehsan Shlewett</p>
+<p>E-mail: ehsans.shlewett@gmail.com</p>
+<p>Mobile: +972-54-6355585</p>
+<hr>
+<form action="mailto:e7san_sh@hotmail.com" method="post" enctype="text/plain">
+<label>Your Name:</label>
+<input type="text" name="yourName" value=""><br>
+<label>Your Email:</label>
+<input type="email" name="yourEmail" value=""><br>
+<label>Your Message:</label><br>
+<textarea name="yourMessage" rows="8" cols="30"></textarea><br>
+    <label class="custom-file-upload">
+    <input type="file" name="attachedfile" allow="text/*" maxlength="50" />
+        Browse
+    </label>
+    <br>
+    <p></p>
+<button type="submit">Submit</button>
+</form><br>
+<button onclick="history.back()">Back</button>
+</body>
+</html>

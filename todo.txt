@@ -1,0 +1,12 @@
+create main page with buttons to seconderay pages - Done
+    -About - Done
+    -checklist - Done
+    -todo list page - Done
+    -knowldge base - Done
+    -contact me - Done
+create seconderay pages
+    -About
+    -checklist
+    -todo list page
+    -knowldge base
+    -contact me
