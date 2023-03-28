@@ -10,3 +10,20 @@ create seconderay pages
     -todo list page
     -knowldge base
     -contact me
+Design
+    -Colors choose Blue or Green - check https://colorhunt.co/palettes/popular
+    -Fonts better go with san-serif - 
+    -UI (user interface):
+        -should use multiple colors to pull eyes to what we need
+        -size of elements to get attention
+        -conten not too short and not too long
+        -alginment of elemtns - use grid lines to assist you
+        -white space - more luxurius
+        -audince, think who is your audince different audince different styles
+    UX (user experince):
+        -simplicity
+        -consistnty (same styles headers, footers. etc across all pages)
+        -use the F-Layout or Z-Layout
+        -All platform design (mobile responsive)
+        ***Don't use it in the wrong way***
+    
